@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div data-aos="zoom-in">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-5 introduction">
+                    <img src="Linkedin-profile-pic-min.webp" alt="picture">
+                    <h3 class="sentence">Let's get you set up</h3>
+                </div>
+                <div class="col-7 fromSide">
+                    <form action="#" id="contactForm" class="mt-5">
+                        <!--name-->
+                        <div class="Name">
+                            <label for="name" class="mx-4">Name:</label><input type="text" placeholder="Enter name"
+                                class="from-control mx-5" id="nameOfUser">
+                            <span id="nameError"></span>
+                        </div>
+                        <!--Gender-->
+                        <div class="radio d-flex mt-3">
+                            <label for="gender" class="mx-4">Gender:</label>
+                            <div class="form-check mx-5">
+                                <input class="form-check-input" type="radio" name="exampleRadio" id="radio1" checked>
+                                <label class="form-check-label" for="Male">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check mx-3">
+                                <input class="form-check-input" type="radio" name="exampleRadio" id="radio2">
+                                <label class="form-check-label" for="Female">
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                        <!--DOB-->
+                        <div class="Dob mt-3">
+                            <label for="dateOfBirth" class="mx-4 fs-6">Date of Birth:</label><input type="date"
+                                class="from-control date" placeholder="Enter your DOB" id="dateOfUser">
+                            <span id="DobError"></span>
+                        </div>
+                        <!--Email-->
+                        <div class="email mt-3">
+                            <label for="email" class="mx-4">Email:</label><input type="email"
+                                placeholder="Enter your email" class="from-control mx-5 email" id="emailUser">
+                            <span id="EmailError"></span>
+                        </div>
+                        <!--Number-->
+                        <div class="phone mt-3">
+                            <label for="phone" class="mx-4">Phone:</label><input type="tel" name="phone"
+                                placeholder="+9779808562389" inputmode="tel" class="from-control mx-5" id="numberUser">
+                        </div>
+                        <!--ID-->
+                        <div class="customerId mt-3">
+                            <label for="id" class="mx-4">Customer Id:</label><input type="tel" class="from-control mx-2"
+                                inputmode="numeric" placeholder="07230 4503 8905" id="idUser">
+                        </div>
+                        <!--buttons-->
+                        <div class="buttons">
+                            <button type="button" class="btn backBtn mx-5 my-5">Back</button>
+                            <button type="submit" class="btn nextBtn ">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+<script>
+    $(".date").flatpickr(
+
+    );
+</script>
+<script src="script.js"></script>
+
+</html>

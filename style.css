@@ -1,0 +1,56 @@
+.container{
+    width: 125vh;
+    overflow:hidden;
+    border-radius: 20px;
+    }
+    
+
+
+.introduction{
+    height: 85vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .introduction img{
+    width: 325px;
+    align-self: center;
+   }
+   .fromSide{
+       background-color: antiquewhite;
+   }
+
+   #nameError{
+    color: red;
+   margin-left: 180px;
+   }
+
+   #DobError{
+    color: red;
+    margin-left: 185px;
+   }
+
+   .email{
+    margin-left: 6px;
+   }
+
+   .from-control{
+    width: 230px;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+   }
+
+   .backBtn{
+    padding: 8px 45px 8px 45px;
+    background-color: rgb(71, 177, 177);
+    color: white;
+   }
+
+   .nextBtn{
+    padding: 8px 45px 8px 45px;
+    background-color: rgb(71, 177, 177);
+    color: white;
+   }
