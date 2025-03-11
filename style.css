@@ -31,6 +31,10 @@
     color: red;
     margin-left: 185px;
    }
+   #EmailError{
+    color:red;
+    margin-left: 180px;
+   }
 
    .email{
     margin-left: 6px;
