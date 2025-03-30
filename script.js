@@ -20,8 +20,9 @@ document.getElementById('contactForm').addEventListener('submit', function (even
         isValid = false;
     }
 
-    if(email.value.trim()=== ''){
+    if (email.value.trim() === '') {
         document.getElementById('EmailError').innerHTML = "Enter your email";
+        isValid = false;
     }
 
     if (isValid) {
