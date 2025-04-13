@@ -1,60 +1,63 @@
-.container{
+.container {
     width: 125vh;
-    overflow:hidden;
+    overflow: hidden;
     border-radius: 20px;
-    }
-    
+}
 
 
-.introduction{
-    height: 85vh;
+
+.introduction {
+    height: 70vh;
     background-color: yellowgreen;
     display: flex;
     flex-direction: column;
     text-align: center;
-   }
+}
 
-   .introduction img{
+.introduction img {
     width: 325px;
     align-self: center;
-   }
-   .fromSide{
-       background-color: antiquewhite;
-   }
+}
 
-   #nameError{
+.fromSide {
+    background-color: antiquewhite;
+    height: 70vh;
+}
+
+#nameError {
     color: red;
-   margin-left: 180px;
-   }
+    margin-left: 180px;
+}
 
-   #DobError{
+#DobError {
     color: red;
     margin-left: 185px;
-   }
-   #EmailError{
-    color:red;
+}
+
+#EmailError {
+    color: red;
     margin-left: 180px;
-   }
+}
 
-   .email{
+.email {
     margin-left: 6px;
-   }
+}
 
-   .from-control{
+.from-control {
     width: 230px;
     border-radius: 8px;
     border: none;
     padding: 7px;
-   }
+}
 
-   .backBtn{
+.backBtn {
     padding: 8px 45px 8px 45px;
     background-color: rgb(71, 177, 177);
     color: white;
-   }
+}
 
-   .nextBtn{
+.nextBtn {
     padding: 8px 45px 8px 45px;
     background-color: rgb(71, 177, 177);
     color: white;
-   }
+}
